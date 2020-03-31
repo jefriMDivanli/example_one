@@ -1,0 +1,194 @@
+body {
+  font-family: "Calibri";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  color: rgb(125, 125, 125);
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  size: 10px;
+  padding: -10px 80px;
+}
+
+.logo1 {
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.header-list {
+  margin-right: 80px;
+  font-size: 18px;
+}
+
+.header-list li {
+  float: right;
+  text-align: center;
+  padding: 33px 20px;
+}
+
+.header-list li:hover {
+  color: gold;
+  font-weight: bold;
+}
+
+.main {
+  padding: 0px 0px;
+  margin: 0;
+}
+
+
+.copy-container h1 {
+  margin-top: 200px;
+  font-size: 100px;
+  text-align: center;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+  margin-top: -60px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.copy-container span {
+  color: #fac902;
+}
+
+.balls {
+  margin-bottom: 10%;
+}
+
+.yellow {
+  margin-left: 78%;
+  margin-top: -8%;
+}
+
+.yellow-ball {
+  width: 250px;
+  height: auto;
+}
+
+.blue {
+  width: 50px;
+  height: auto;
+  margin-top: -20%;
+  margin-left: 40px;
+}
+
+.blue-ball {
+  width: 300px;
+  height: auto;
+}
+
+.contents {
+  height: 500px;
+}
+
+.content-lessons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lesson-images {
+  width: 250px;
+  height: auto;
+}
+
+.section-title {
+  display: flex;
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 25px;
+  margin-bottom: 0px;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.contact-arrange {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contents-item {
+  margin-right: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #6a6c6d;
+  max-width: 25%;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.lessons-description {
+  font-weight: lighter;
+}
+
+.contact-form {
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.progate {
+  width: 25%;
+  height: 25%;
+  margin-top: 13%;
+  align-items: center;
+}
+
+.glints {
+  width: 15%;
+  height: 15%;
+  margin-top: 5%;
+}
+
+.contact-input {
+  text-align: center;
+  width: 50%;
+  align-content: center;
+}
+
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+  border-radius: 100px;
+}
+
+.footer {
+  background-color: #fac902;
+  color: #fff7d6;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
